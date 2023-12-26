@@ -1,0 +1,1288 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 3500px;
+    margin: 0;
+   
+    
+    
+    
+}
+.navbar{
+    border: 3px ;
+    padding: 60px 470px;
+    background-color: #2B2A4C;
+    height: 100px;
+    position: fixed;
+    
+}
+.navbar-name a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 200px;
+    font-weight: 700;
+    
+}
+.list ul{
+    display: flex;
+    margin-left: -170px;
+    align-items: center;
+}
+.list ul li {
+    list-style: none;
+    margin: 10px;
+}
+.list ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.list ul li a:hover{
+    opacity: 60%;
+}
+
+
+.navbar-button1{
+    border: 3px solid #2B2A4C;
+    background-color:#2B2A4C ;
+    padding: 15px 30px;
+    font-weight: 600;
+    color: #fff;
+}
+.navbar-button2{
+    border: 3px solid #2B2A4C;
+    background-color: #00d9ff   ;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #fff;
+    transition: 200ms;
+    
+}
+.nav-bar-buttons{
+    margin-right: 250px;
+}
+.navbar-button2 i{
+    margin: 8px;
+    font-weight: 900;
+    
+}
+
+.navbar-button2:hover{
+    background-color: #fff;
+    color: #00d9ff;
+}
+.head{
+    background-color: #2B2A4C;
+    border: 3px ;
+    padding: 350px 500px;
+    height: 1000px;
+    
+    
+    
+   
+}
+.header-text h6{
+    display: flex;
+    justify-content: center;
+    color: #00d9ff;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: -270px;
+}
+.header-text h1{
+    color: #fff;
+text-align: center;
+font-family: Montserrat;
+font-size: 58px;
+font-style: normal;
+font-weight: 800;
+line-height: 80px;
+letter-spacing: 0.2px;
+   
+    
+}
+.header-text-main{
+    display: flex;
+    justify-content: center;
+}
+.header-text h2{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 65px;
+    font-weight: 650;
+    margin-top: -18px;
+}
+.header-text p{
+    color: #fff;
+text-align: center;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+letter-spacing: 0.2px;
+    
+   
+   
+}
+.header-text{
+    margin-top: 50px;
+
+}
+
+
+.quote-button{
+   
+    border: 3px solid #2B2A4C;
+    background-color: #00d9ff   ;
+    padding: 15px 45px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #fff;
+    transition: 150ms;
+    
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.learn-button{
+    
+    border:1px solid #00d9ff ;
+    border-radius: 5px;
+    background-color: #2B2A4C;
+    padding: 13px 40px ;
+    color: #fff;
+    font-weight: 600;
+    transition: 150ms;
+
+}
+.quote-button:hover{
+    background-color: #fff;
+    color: #00d9ff;
+    
+}
+.learn-button:hover{
+    background-color: #00d9ff;
+    color: #fff;
+ 
+
+}
+.header-cards{    
+    margin-right: 1000px;                                            
+
+}
+.header-card{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 1518px;
+    display: flex;  
+    margin-left: -500px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-card1{
+    height: 330px ;
+    width: 360px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+.header-card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.icon{
+    border-radius: 10px;
+    padding: 10px 27px;
+    width: 90px;
+    height: 95px;
+    display: flex;
+    background-color: #f8967568;
+    
+
+
+
+}
+.icon i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #ff5500;
+  
+    
+}   
+.card-title{
+    
+    border-bottom: 1px ;
+   
+    padding: 20px 30px;
+    
+}
+.card-title h1{
+    width: 190px;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+   margin-left: -30.5px;
+    
+}   
+.line{
+
+    border: 2px solid #ff5500;
+   width: 65px;
+}
+.card-text{
+   
+    border: 3px ;
+    padding: 20px px;
+    font-size: 16px;
+    width: 250px;
+    
+}
+.card-text p{
+    opacity: 70%;
+}
+.secondcard-icon{
+    border-radius: 10px;
+    padding: 10px 27px;
+    width: 90px;
+    height: 95px;
+    display: flex;
+    background-color: rgba(0, 128, 0, 0.326);
+}
+.secondcard-icon i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: green;
+}
+.secondcard-title{
+    
+   
+    padding: 20px 30px;
+}
+.secondcard-title h1{
+    width: 300px;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+   margin-left: -30.5px;
+}
+.secondcard-line{
+   
+    border: 2px solid #ff5500;
+   width: 65px;
+     
+}
+.secondcard-text{
+    
+    border: 3px ;
+    padding: 20px px;
+    font-size: 16px;
+    width: 250px;
+  
+}
+
+.secondcard-text p{
+    opacity: 70%;
+}
+.thirdcard-icon{
+    border-radius: 10px;
+    padding: 10px 27px;
+    width: 90px;
+    height: 95px;
+    display: flex;
+    background-color: #fff;
+}
+.thirdcard-icon i{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgba(35, 166, 240, 1);
+}
+.thirdcard-title{
+   
+    border: 3px ;
+    
+    padding: 20px 30px;
+}
+.thirdcard-title h1{
+    width: 300px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+   margin-left: -30.5px;
+}
+.thirdcard-line{
+    border: 2px solid #fff;
+   width: 65px;
+}
+.thirdcard-text{
+    border: 3px ;
+    padding: 20px px;
+    font-size: 16px;
+    width: 250px;
+
+}
+.thirdcard-text p{
+    color: #fff;
+}
+.header-card3{
+   
+    height: 330px ;
+    width: 360px;
+    background-color: rgba(35, 166, 240, 1);
+}
+
+.layout1{
+    display: flex;
+    border: 3px ;
+    width: 100%;  
+    height: 715px;
+    
+
+}
+.first-half{
+    display: flex;
+    justify-content:left;
+    border: 3px ;
+    width: 50%;
+    height: 715px;
+}
+.container{
+    border: 3px ;
+    position: relative;
+
+}
+.layout1-line{
+    border-bottom: 8px solid #ff5500;
+    padding: 40px 10px;
+    width: 90px;
+    position: absolute;
+    top: 110px;
+    right: 544px;
+}
+.layout1-title{
+    position: absolute;
+    border: 3px ;
+    top: 239px;
+    right: 139px;
+
+}
+.layout1-title h1{
+    font-size: 60px;
+    font-weight: 700;
+    width: 500px;
+}
+.layout1-text{
+    border: 3px ;
+    position: absolute;
+    top: 430px;
+    right: 287px;
+}
+.layout1-text p{
+    width: 350px;
+    opacity: 70%;
+    font-weight: 600;
+}
+.layout1-button{
+    
+    font-size: 18px;
+    position: absolute;
+    top: 530px;
+    right: 522px;
+}
+.layout1-button a{
+    text-decoration: none;
+}
+.second-half{
+    display: flex;
+    justify-content:right;
+    border: 1px ;
+    width: 50%;
+    height: 715px;
+}
+.layout1-image{
+    display: flex ;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+  
+}
+.img{
+
+   width: 85%;
+   height: 75%;
+}
+.layout2{
+    width: 1519px;
+    height: 1100px;
+    border: 3px  ;
+}
+.start-text{
+    width: 100%;
+    height: 300px;
+    border: 3px ;
+    display: flex;
+    align-items: center;
+    
+   
+}
+.start-text h6{
+    font-weight: 600;
+    color: #00d9ff;
+    font-size: 20px;
+
+}
+.start-text h1{
+    font-weight: 700;
+}
+.layout2-title{
+    border: 3px ;
+    position: absolute;
+   left: 166px;
+}
+.layout2-title p{
+        opacity: 70%;
+}
+.layout2-cards{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    position: relative;  
+     
+}
+.layout2-card{
+    flex-wrap: wrap;
+    border: 3px ;
+    width: 270px;
+    height: 600px;
+}
+.layout2-card img{
+   width: 100%;
+   height: auto;
+}
+.layout2-card-icons1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    position: absolute;
+    top: 257px;
+    right: 1111px;
+}
+.layout2-card-icons2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    position: absolute;
+    top: 257px;
+    right: 807px;
+}
+.layout2-card-icons3{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    position: absolute;
+    top: 257px;
+    right: 508px;
+}
+.layout2-card-icons4{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    position: absolute;
+    top: 257px;
+    right: 198px;
+}
+.bi-heart{
+    background-color: #fff;
+    border: 3px solid #fff;
+    padding:3px 10px;
+    border-radius: 1000px;
+}
+.bi-cart{
+    background-color: #fff;
+    border: 3px solid #fff;
+    padding:3px 10px;
+    border-radius: 1000px;
+}
+.bi-eye-fill{
+    background-color: #fff;
+    border: 3px solid #fff;
+    padding:3px 10px;
+    border-radius: 1000px;
+}
+.layout2-card-text{
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 3px so;
+    
+}   
+.layout2-card-text-head{
+    display: flex;
+    gap: 110px;
+}
+.layout2-card-text-head h6{
+    color: rgba(35, 166, 240, 1);
+    font-size: 17px;
+    font-weight: 650;
+
+}
+.layout2-card-text-head button{
+    display: flex;
+    background: rgba(37, 43, 66, 1);
+    gap: 7px;
+    height: 35px;
+    border-radius: 20px;
+}
+.layout2-card-text-head button i{
+    color:rgba(255, 206, 49, 1);
+   
+}
+.layout2-card-text-head button p{
+    color: #FFF;
+    font-weight: 600;
+}
+.layout2-card-text h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.layout2-card-text p{
+    font-weight: 600;
+}
+.layout2-card-text h5{
+    font-size: 17px;
+    font-weight: 600;
+}
+.layout2-card-text h4{
+    gap: 10px;
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+
+}
+.first-price{
+    opacity: 40%;
+}
+.second-price{
+    color: rgba(64, 187, 21, 1);
+}
+.layout2-card-text-icons{
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.bi-alarm{
+    color: rgba(35, 166, 240, 1);
+}
+.bi-clipboard2-data{
+    color: rgba(231, 124, 64, 1);
+}
+.layout2-card-text-button button{
+    color: rgba(35, 166, 240, 1);
+    padding: 15px 35px;
+    border: 2px solid  rgba(35, 166, 240, 1);
+    border-radius: 50px;
+    background-color: #fff;
+    margin-top: 30px;
+    font-weight: 700;
+}
+.layout2-card-first-sale{
+    position: absolute;
+    top: 17px;
+    right: 1272px;
+}
+.layout2-card-second-sale{
+    position: absolute;
+    top: 17px;
+    right: 964px;
+}
+.layout2-card-third-sale{
+    position: absolute;
+    top: 17px;
+    right: 660px;
+}
+.layout2-card-fourth-sale{
+    position: absolute;
+    top: 17px;
+    right: 353px;
+}
+.layout2-card-text-button button:hover{
+    background-color: rgba(35, 166, 240, 1) ;
+    color: #fff;
+}
+.layout2-card-icons1 i:hover{
+    border: 3px solid black;
+    background-color: black;
+    color: #fff;
+}
+.layout2-card-icons2 i:hover{
+    border: 3px solid black;
+    background-color: black;
+    color: #fff;
+}
+.layout2-card-icons3 i:hover{
+    border: 3px solid black;
+    background-color: black;
+    color: #fff;
+}
+.layout2-card-icons4 i:hover{
+    border: 3px solid black;
+    background-color: black;
+    color: #fff;
+}
+.layout3{
+    position: relative;
+    top: 200px;
+}
+.layout3-title{
+    border: 3px ;
+    position: absolute;
+    left: 175px;
+}
+.layout3-main{
+    display: flex;
+    border: 3px ;
+    height: 550px ;
+    width: 100%;
+    
+}
+.layout3-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px ;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    
+}
+.layout3-first-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+    
+    
+    border: 3px ;
+    height: 400px;
+    width: 500px;
+}
+.layout3-first-card-headimg img{
+   
+    height: 120px ;
+    width: 120px;
+    border-radius:100px ;
+    justify-content: center;
+}
+.layout3-first-card-text{
+    color: var(--second-text-color, #737373);
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.2px;
+}
+.layout3-first-card-text p {
+    font-size: 16px;
+    width: 320px;
+}
+.layout3-first-card-user h5{
+    font-weight: 700;
+
+}
+.layout3-first-card-user h6{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 700;
+    opacity: 60%;
+}
+.layout3-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+}
+.layout3-second-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+      
+      
+      border: 3px ;
+      height: 400px;
+      width: 500px;
+  }
+  .layout3-second-card-headimg img{
+     
+      height: 120px ;
+      width: 120px;
+      border-radius:100px ;
+      justify-content: center;
+  }
+  .layout3-second-card-text{
+      color: var(--second-text-color, #737373);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  }
+  .layout3-second-card-text p {
+      font-size: 16px;
+      width: 320px;
+  }
+  .layout3-second-card-user h5{
+      font-weight: 700;
+  
+  }
+  .layout3-second-card-user h6{
+      display: flex;
+      justify-content: center;
+      font-size: 17px;
+      font-weight: 700;
+      opacity: 60%;
+  }
+  .layout4{
+    border: 3px ;
+    height: 500px;
+  }
+  .layout4-main-text{
+    border: 3px;
+    height: 1000px;
+  }
+  .layout4-start-text{
+    width: 100%;
+    height: 300px;
+    border: 3px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.layout4-start-text h6{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    color: #00d9ff;
+    font-size: 20px;
+
+}
+.layout4-start-text h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+.layout4-title{
+    border: 3px ;
+    
+}
+.layout4-title p{
+    color: var(--second-text-color, #737373);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; 
+letter-spacing: 0.2px;
+width: 500px;
+
+}
+.layout4-email{
+    border: 3px ;
+    padding: 30px ;
+    width: 100%;
+    margin-top: -50px;
+}
+.layout4-email input{
+
+    width: 600px;
+    padding: 13px ;
+    
+}
+.layout4-email button{
+   background-color: #23A6F0;
+   border-radius: 5px;
+width: 117px;
+height: 53.5px;
+padding: 5px 22px;
+color: #fff;
+font-weight: 600    ;
+}
+.layout4-email button:hover{
+    transform: scale(1.02);
+}
+.layout4-email-container{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+footer{
+    padding: 100px;
+    width: 100%;
+    background-color: rgba(37, 43, 66, 1);
+    color: #fff;
+}
+.footer-head-info{
+    padding: 1px 100px;
+    display: flex       ;
+    gap: 30px;
+}
+.footer-head-info1{
+    height: 200px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    
+
+    
+}
+.footer-head-info2{
+    height: 250px;
+    width: 50%;    
+}
+.footer-head-info3{
+    height: 250px;
+    width: 50%;
+}
+.footer-head-info4{
+    height: 250px;
+    width: 50%;
+}
+.footer-head-info1 h3{
+    font-weight: 700;
+    font-size: 27px;
+    
+}
+.footer-head-info1 p{
+    width: 230px;
+    font-size: 16px;
+}
+.footer-head-info1 i{
+ font-size: 30px; 
+ color: rgba(35, 166, 240, 1);
+ 
+ 
+ 
+ 
+}
+.footer-head-info1-icons{
+    display: flex;
+    gap: 25px;
+}
+.footer-head-info1-icons i:hover{
+    transform: scale(1.06);
+}
+.footer-head-info2 h3{
+    font-weight: 700;
+}
+
+.footer-head-info2 ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    
+   
+}
+.footer-head-info2 ul li{
+    list-style: none;
+    display: flex;
+    margin-left: -30px;
+    
+}
+.footer-head-info2 ul li a:hover{
+  transform: scale(1.06);
+}
+.footer-head-info2-links{
+    display: flex;
+    
+
+}
+.footer-head-info2-links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer-head-info3 h3{
+    font-weight: 700;
+}
+
+.footer-head-info3 ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    
+   
+}
+.footer-head-info3 ul li{
+    list-style: none;
+    display: flex;
+    margin-left: -30px;
+    
+}
+.footer-head-info3 ul li a:hover{
+  transform: scale(1.06);
+}
+.footer-head-info3-links{
+    display: flex;
+    
+
+}
+.footer-head-info3-links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer-head-info4 h3{
+    font-weight: 700;
+}
+
+.footer-head-info4 ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    
+   
+}
+.footer-head-info4 ul li{
+    list-style: none;
+    display: flex;
+    margin-left: -30px;
+    
+}
+.footer-head-info4 ul li a:hover{
+  transform: scale(1.06);
+}
+.footer-head-info4-links{
+    display: flex;
+    
+
+}
+.footer-head-info3-links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer-last{
+    padding: 30px 50px;
+}
+.footer-last-text h6{
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+font-size: 17px;
+font-style: normal;
+font-weight: 750;
+letter-spacing: 0.2px;
+opacity: 70%;
+}
+@media (max-width: 820px) {
+    .navbar {
+        padding: 10px; /* Further adjusted padding for screens with a width of 820px or less */
+    }
+
+    .navbar-name a {
+        font-size: 20px; /* Further adjusted font size for screens with a width of 820px or less */
+        margin-left: 10px;
+    }
+
+    .list ul li {
+        margin: 5px; /* Further adjusted margin for screens with a width of 820px or less */
+    }
+
+    .navbar-button1,
+    .navbar-button2 {
+        padding: 8px 15px; /* Further adjusted padding for screens with a width of 820px or less */
+    }
+
+    .nav-bar-buttons {
+        margin-right: 10px; /* Further adjusted margin for screens with a width of 820px or less */
+    }
+
+    .navbar-button2 i {
+        margin: 5px; /* Further adjusted margin for screens with a width of 820px or less */
+    }
+}
+@media (max-width: 440px) {
+    .navbar {
+        padding: 10px; /* Further adjusted padding for screens with a width of 440px or less */
+    }
+
+    .navbar-name a {
+        font-size: 20px; /* Further adjusted font size for screens with a width of 440px or less */
+    }
+
+    .list ul li {
+        margin: 5px; /* Further adjusted margin for screens with a width of 440px or less */
+    }
+
+    .navbar-button1,
+    .navbar-button2 {
+        padding: 8px 15px; /* Further adjusted padding for screens with a width of 440px or less */
+    }
+
+    .nav-bar-buttons {
+        margin-right: 10px; /* Further adjusted margin for screens with a width of 440px or less */
+    }
+
+    .navbar-button2 i {
+        margin: 5px; /* Further adjusted margin for screens with a width of 440px or less */
+    }
+}
+
+ 
+
+@media screen and (max-width: 820px) {
+    /* Footer section */
+    footer {
+        padding: 50px; /* Reduce padding for smaller screens */
+    }
+
+    .footer-head-info {
+        padding: 1px 20px; /* Adjust padding for smaller screens */
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        gap: 20px; /* Adjust the gap between items for smaller screens */
+    }
+
+    .footer-head-info1,
+    .footer-head-info2,
+    .footer-head-info3,
+    .footer-head-info4 {
+        width: 100%; /* Make each section full width on smaller screens */
+        text-align: center; /* Center-align text on smaller screens */
+    }
+
+    .footer-head-info1 h3 {
+        font-size: 20px; /* Adjust the font size for smaller screens */
+    }
+
+    .footer-head-info1 i {
+        font-size: 25px; /* Adjust the font size for smaller screens */
+    }
+
+    /* Add more responsive styles as needed for other sections */
+}
+@media screen and (max-width: 820px) {
+    /* Footer section */
+    footer {
+        padding: 50px; /* Reduce padding for smaller screens */
+    }
+
+    .footer-head-info {
+        padding: 1px 20px; /* Adjust padding for smaller screens */
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        gap: 20px; /* Adjust the gap between items for smaller screens */
+    }
+
+    .footer-head-info1,
+    .footer-head-info2,
+    .footer-head-info3,
+    .footer-head-info4 {
+        width: 100%; /* Make each section full width on smaller screens */
+        text-align: center; /* Center-align text on smaller screens */
+    }
+
+    .footer-head-info1 h3 {
+        font-size: 20px; /* Adjust the font size for smaller screens */
+    }
+
+    .footer-head-info1 i {
+        font-size: 25px; /* Adjust the font size for smaller screens */
+    }
+
+    .footer-head-info2 h3 {
+        font-size: 20px; /* Adjust the font size for smaller screens */
+    }
+
+    .footer-head-info2 ul li a {
+        font-size: 16px; /* Adjust the font size for smaller screens */
+    }
+
+    .footer-head-info2 ul li {
+        margin-left: 0; /* Remove negative margin for list items on smaller screens */
+    }
+
+    /* Add more responsive styles as needed for other sections */
+    .footer-head-info2-links,
+    .footer-head-info3-links,
+    .footer-head-info4-links {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .footer-head-info2-links ul,
+    .footer-head-info3-links ul,
+    .footer-head-info4-links ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .footer-head-info3 h3,
+    .footer-head-info4 h3 {
+        font-weight: 700;
+    }
+    
+    .footer-head-info3 ul li a,
+    .footer-head-info4 ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    
+    .footer-head-info3 ul li,
+    .footer-head-info4 ul li {
+        list-style: none;
+        display: flex;
+        margin-left: 0; /* Remove negative margin for list items on smaller screens */
+    }
+    
+    .footer-head-info3 ul li a:hover,
+    .footer-head-info4 ul li a:hover {
+        transform: scale(1.06);
+    }
+    
+    .footer-last {
+        padding: 30px 20px; /* Adjust padding for smaller screens */
+    }
+    
+    .footer-last-text h6 {
+        font-size: 15px; /* Adjust font size for smaller screens */
+    }
+}
+@media only screen and (max-width: 820px) {
+    
+    .footer {
+        padding: 50px;
+    }
+
+    .footer-head-info {
+        padding: 1px 20px;
+    }
+
+    .footer-section {
+        width: 100%;
+        gap: 20px;
+    }
+
+    /* Add similar adjustments for other footer sections */
+}
+@media  screen and (max-width: 420px) {
+    .navbar {
+        padding: 20px;
+    }
+
+    .navbar-name {
+        margin-left: 20px;
+    }
+
+    .list ul {
+        margin-left: -100px;
+    }
+
+    .navbar-button1,
+    .navbar-button2 {
+        padding: 10px;
+        font-size: 14px;
+        margin-right: 20px;
+    }
+
+    .navbar-button2 i {
+        margin: 4px;
+    }
+}
+
+@media  (max-width: 420px) {
+    .footer {
+        padding: 50px;
+    }
+
+    .footer-head-info {
+        padding: 1px 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-head-info1,
+    .footer-head-info2,
+    .footer-head-info3,
+    .footer-head-info4 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-head-info1 p {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width: 420px) {
+    .footer-head-info2-links ul,
+    .footer-head-info3-links ul {
+        flex-direction: row;
+        margin-left: 0;
+    }
+
+    .footer-head-info2-links ul li,
+    .footer-head-info3-links ul li {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+}
+@media (max-width: 420px) {
+    .footer-head-info2-links ul,
+    .footer-head-info3-links ul {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .footer-head-info2-links ul li,
+    .footer-head-info3-links ul li {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+}
+@media (max-width: 420px) {
+    .footer-last {
+        text-align: center;
+    }
+}
